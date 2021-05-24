@@ -5,11 +5,11 @@ const bodyParser = require('body-parser');
 const couchbase = require("couchbase");
 const User = require('./models/Users');
 const Uuid = require("uuid");
-const { response } = require('express');
+const  response  = require('express');
 
 var cluster = new couchbase.Cluster("couchbase://127.0.0.1",{
     username: 'Administrator',
-    password: 'password',
+    password: 'Password',
 });
 
 
